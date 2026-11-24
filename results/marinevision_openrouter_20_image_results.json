@@ -1,0 +1,1011 @@
+{
+    "project": "MarineVision AI",
+    "provider": "OpenRouter",
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "total_images": 20,
+    "successful_images": 20,
+    "failed_images": 0,
+    "results": [
+        {
+            "image_index": 228,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "can_metal",
+                    "confidence": 0.9383,
+                    "box_xyxy": [
+                        694.82,
+                        645.55,
+                        746.27,
+                        723.09
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A small, vertically oriented, light-colored cylindrical object is visible near the center-left of the frame, resting on or just above the seabed. It resembles a bottle or container but is too small and indistinct to confirm material or exact identity from this image alone.  \n- The detector label “can_metal” is a model prediction, not visually confirmed evidence.\n\n2. Environmental observations  \n- Water is turbid with a greenish-blue tint; visibility is limited.  \n- Seabed appears to be sand or sediment with some darker patches that may be vegetation or shadow.  \n- No other distinct objects, marine life, or debris are clearly visible.\n\n3. Potential environmental impacts  \n- If the object is anthropogenic debris, it could contribute to seafloor litter.  \n- If it is a container, there is a possibility of slow leaching or entrapment of small organisms, but this cannot be confirmed visually.  \n- No visible signs of chemical contamination, oil sheen, or biological damage are present.\n\n4. Possible marine risks  \n- Small debris may pose ingestion or entanglement risk to benthic organisms, though no such interaction is observed.  \n- If metallic and corroded over time, it could contribute to localized sediment changes, but this is speculative.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection or ROV dive to identify the object and determine whether it is debris.  \n- If confirmed as litter, consider targeted removal.  \n- Monitor the area periodically for additional debris accumulation.\n\n6. Overall assessment  \n- One small, unconfirmed object is visible; detector output alone does not verify it as a metal can.  \n- No definitive debris or environmental harm is visually supported in this image.  \n- Further verification is needed before classifying the object or planning cleanup.",
+            "processing_time_seconds": 4.51
+        },
+        {
+            "image_index": 51,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "clothing_fiber",
+                    "confidence": 0.7342,
+                    "box_xyxy": [
+                        19.45,
+                        691.7,
+                        845.79,
+                        1077.16
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- Seafloor composed of rocks, pebbles, and sediment.  \n- Small suspended particles in the water column.  \n- No clearly identifiable clothing fiber or other debris is visually distinguishable in the image.\n\n2. Environmental observations  \n- Underwater visibility is limited; the scene is somewhat murky.  \n- The seabed appears natural, with no obvious large anthropogenic objects.  \n- Water temperature and depth are indicated in the image overlay (23 °C, 7.1 m), but these are contextual data, not debris evidence.\n\n3. Potential environmental impacts  \n- If microfibers or fine particulate debris were present, they could be ingested by benthic organisms, but this cannot be confirmed from the image.  \n- No visible macro-debris is present to assess direct physical impacts.\n\n4. Possible marine risks  \n- The detector’s “clothing_fiber” prediction is not visually supported; fibers are typically microscopic and would not be resolvable at this scale.  \n- No entanglement, ingestion, or habitat-smothering risks are evident from visible objects.\n\n5. Suggested cleanup or monitoring actions  \n- No cleanup action is indicated based on visible evidence.  \n- Consider water sampling or higher-resolution imaging if microfiber presence is a concern, but this is beyond what the image can confirm.\n\n6. Overall assessment  \n- No debris is visibly supported in the image.  \n- The detector confidence score does not constitute visual confirmation.  \n- The scene appears to show a natural, albeit turbid, seafloor without identifiable anthropogenic debris.",
+            "processing_time_seconds": 4.49
+        },
+        {
+            "image_index": 563,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9977,
+                    "box_xyxy": [
+                        938.92,
+                        370.8,
+                        1490.28,
+                        745.89
+                    ]
+                },
+                {
+                    "object": "animal_shells",
+                    "confidence": 0.991,
+                    "box_xyxy": [
+                        865.23,
+                        493.22,
+                        968.9,
+                        807.73
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.8648,
+                    "box_xyxy": [
+                        1528.3,
+                        930.29,
+                        1590.65,
+                        991.55
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A dark, roughly circular object resting on the sandy seabed, consistent in shape with a tire or tire-like debris; it is partially covered by sediment and marine growth.  \n- Several small, irregularly shaped objects scattered on the seabed, including what may be shell fragments or small rocks; none are clearly identifiable as animal shells or urchins from the image alone.  \n- No clearly visible animal shells or sea urchins are supported by the visual evidence.\n\n2. Environmental observations  \n- Water is turbid with a greenish-blue tint, reducing visibility and contrast.  \n- Seabed appears to be soft sediment (sand or silt).  \n- The tire-like object is partially buried and shows signs of biofouling or sediment accumulation, suggesting it has been in place for some time.  \n- Timestamp reads 2021-09-16 17:09:24; camera label IPC1000 is visible.\n\n3. Potential environmental impacts  \n- If the object is a tire, it may leach rubber additives or heavy metals over time, though this cannot be confirmed visually.  \n- It could physically smother benthic habitat or alter local sediment dynamics.  \n- It may provide artificial substrate for sessile organisms, potentially changing local community structure.\n\n4. Possible marine risks  \n- Entanglement or injury risk to benthic fauna if the object has protruding metal or sharp edges (not clearly visible).  \n- Ingestion risk for bottom-feeding organisms if small fragments break off (not observed).  \n- Navigation or snagging hazard for fishing gear or divers, depending on size and location.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection or ROV survey to confirm object identity and condition.  \n- If confirmed as debris, consider targeted removal to prevent further degradation or fragmentation.  \n- Monitor the site periodically to assess whether the object is moving, breaking down, or accumulating additional debris.  \n- Document any associated marine growth or species using the object as habitat.\n\n6. Overall assessment  \nThe image shows one probable piece of anthropogenic debris—a tire-like object—on the seabed. Detector predictions for animal_shells and animal_urchin are not visually supported. No chemical contamination is confirmed. The debris poses potential physical and ecological risks, but impacts remain speculative without further sampling or closer inspection.",
+            "processing_time_seconds": 5.83
+        },
+        {
+            "image_index": 501,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9994,
+                    "box_xyxy": [
+                        866.55,
+                        176.79,
+                        1236.17,
+                        485.1
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects\n- A circular, ring-shaped object resting on the seabed, consistent in form with a tire or tire fragment; partially obscured by sediment and marine growth.\n- Surrounding seabed covered with sediment, algae, and scattered small rocks or shell fragments.\n- Water column appears turbid/greenish with suspended particulate matter.\n\n2. Environmental observations\n- The object is located on the benthic substrate and appears integrated into the local seafloor environment.\n- No clear signs of active leakage, sheen, or discoloration around the object are visible.\n- Visibility is limited due to water turbidity; fine details of the object’s material condition are difficult to confirm.\n\n3. Potential environmental impacts\n- If the object is rubber debris, it could contribute to long-term benthic litter and physical habitat alteration.\n- Over time, weathering of rubber materials may release microplastics or additives, though this cannot be confirmed from the image alone.\n- The object may provide artificial substrate for sessile organisms, altering local microhabitat structure.\n\n4. Possible marine risks\n- Benthic organisms may interact with or become entangled in the object if it has protruding or degraded components.\n- If the object shifts or fragments, it could disperse debris across a wider area of the seafloor.\n- No acute risks (e.g., visible toxic discharge, wildlife entanglement in progress) are evident in the image.\n\n5. Suggested cleanup or monitoring actions\n- Conduct a closer visual inspection or ROV survey to confirm object identity, size, and condition.\n- Document GPS coordinates and photograph the site for baseline monitoring.\n- Assess feasibility of safe removal if the object is confirmed as anthropogenic debris and removal would not cause greater habitat disturbance.\n- Monitor the surrounding area for additional similar debris.\n\n6. Overall assessment\n- Visually supported evidence: one ring-shaped, tire-like object on the seabed in turbid underwater conditions.\n- Detector confidence (0.9994) is not treated as proof; visual identification remains tentative due to image quality and biofouling/sediment cover.\n- No confirmed chemical contamination or acute environmental hazard is visible. The site warrants verification and possible inclusion in marine debris monitoring.",
+            "processing_time_seconds": 4.54
+        },
+        {
+            "image_index": 457,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tube_cement",
+                    "confidence": 0.9978,
+                    "box_xyxy": [
+                        992.56,
+                        789.82,
+                        1117.12,
+                        935.67
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9691,
+                    "box_xyxy": [
+                        27.73,
+                        841.5,
+                        95.45,
+                        891.75
+                    ]
+                },
+                {
+                    "object": "tube_cement",
+                    "confidence": 0.9619,
+                    "box_xyxy": [
+                        380.98,
+                        648.41,
+                        566.31,
+                        850.6
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.6766,
+                    "box_xyxy": [
+                        1450.02,
+                        451.79,
+                        1649.77,
+                        519.65
+                    ]
+                },
+                {
+                    "object": "bottle_plastic",
+                    "confidence": 0.5556,
+                    "box_xyxy": [
+                        19.0,
+                        329.24,
+                        257.84,
+                        425.48
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- Two cylindrical, tube-like objects resting on the sandy seabed, consistent with tube_cement detections.  \n- A tangled, rope-like object near the center-left of the frame.  \n- Scattered small, dark, irregular items across the seabed; none clearly identifiable as a bottle_plastic or animal_urchin from the image alone.  \n\n2. Environmental observations  \n- Seabed is predominantly sand/silt with low visibility due to turbid water.  \n- No visible coral, seagrass, or dense benthic fauna in the immediate frame.  \n- Lighting is diffuse and blue-green, typical of underwater conditions; background fades into haze.  \n\n3. Potential environmental impacts  \n- Tube-like debris may physically smother or alter small areas of benthic habitat.  \n- Rope-like material could pose entanglement risk to benthic organisms if present.  \n- Persistent debris may contribute to long-term seafloor litter accumulation.  \n\n4. Possible marine risks  \n- Entanglement hazard for mobile benthic fauna from rope-like debris (possibility, not confirmed).  \n- Ingestion risk for bottom-feeding organisms if debris fragments (possibility, not confirmed).  \n- No visible signs of acute chemical contamination; cannot confirm or rule out chemical leaching from visual inspection alone.  \n\n5. Suggested cleanup or monitoring actions  \n- Verify detections with diver or ROV inspection before removal.  \n- If safe and feasible, remove the two tube-like objects and rope-like debris to prevent further habitat interaction.  \n- Conduct repeat surveys to monitor for additional debris accumulation in this area.  \n- Document exact GPS coordinates of debris for targeted cleanup planning.  \n\n6. Overall assessment  \nThe image shows visible anthropogenic debris on the seabed, including at least two tube-like objects and rope-like material. Detector confidence scores are not proof of identification, and no bottle_plastic or animal_urchin is visually confirmed. The debris appears localized rather than widespread, but removal and follow-up monitoring are warranted to prevent potential benthic impacts.",
+            "processing_time_seconds": 4.73
+        },
+        {
+            "image_index": 285,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9958,
+                    "box_xyxy": [
+                        302.41,
+                        776.92,
+                        376.94,
+                        842.5
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9937,
+                    "box_xyxy": [
+                        319.78,
+                        694.17,
+                        403.42,
+                        761.76
+                    ]
+                },
+                {
+                    "object": "animal_shells",
+                    "confidence": 0.9924,
+                    "box_xyxy": [
+                        1146.24,
+                        571.15,
+                        1356.33,
+                        896.43
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9891,
+                    "box_xyxy": [
+                        1120.27,
+                        440.07,
+                        1172.0,
+                        495.79
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.9843,
+                    "box_xyxy": [
+                        767.21,
+                        642.95,
+                        943.34,
+                        754.46
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9786,
+                    "box_xyxy": [
+                        1181.53,
+                        552.2,
+                        1230.58,
+                        598.44
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9614,
+                    "box_xyxy": [
+                        587.95,
+                        429.06,
+                        643.66,
+                        475.63
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9607,
+                    "box_xyxy": [
+                        522.22,
+                        396.19,
+                        558.53,
+                        423.82
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9436,
+                    "box_xyxy": [
+                        1511.3,
+                        576.35,
+                        1554.17,
+                        612.17
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.903,
+                    "box_xyxy": [
+                        28.92,
+                        520.32,
+                        76.06,
+                        570.67
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9019,
+                    "box_xyxy": [
+                        519.67,
+                        571.63,
+                        567.01,
+                        625.22
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.8983,
+                    "box_xyxy": [
+                        1329.12,
+                        752.73,
+                        1373.8,
+                        821.8
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.8869,
+                    "box_xyxy": [
+                        230.04,
+                        519.63,
+                        364.84,
+                        607.73
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.8818,
+                    "box_xyxy": [
+                        1167.51,
+                        610.62,
+                        1205.73,
+                        661.68
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.6472,
+                    "box_xyxy": [
+                        398.06,
+                        137.14,
+                        449.65,
+                        184.19
+                    ]
+                },
+                {
+                    "object": "animal_shells",
+                    "confidence": 0.6098,
+                    "box_xyxy": [
+                        1609.48,
+                        660.64,
+                        1902.1,
+                        845.47
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.5734,
+                    "box_xyxy": [
+                        487.97,
+                        399.8,
+                        515.54,
+                        432.15
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.5298,
+                    "box_xyxy": [
+                        1593.4,
+                        658.71,
+                        1659.8,
+                        707.51
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.5081,
+                    "box_xyxy": [
+                        1829.21,
+                        716.79,
+                        1871.42,
+                        759.11
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects\n- A long, light-colored rope or cable runs diagonally across the sandy seabed from lower left toward upper center.\n- A yellowish, rounded object rests on the sand in the right foreground; it appears to be a marine organism (possibly a sponge or tunicate) rather than debris.\n- Several dark, small, irregular objects are scattered on the sand, consistent with rocks, shells, or biological material.\n- The seabed is sandy with scattered natural debris and low visibility due to turbidity.\n\n2. Environmental observations\n- The image shows an underwater sandy bottom with moderate turbidity.\n- A rope-like object is present on the seafloor.\n- No clear marine debris such as plastic bags, bottles, or fishing nets is visually identifiable beyond the rope/cable.\n- Detector predictions list multiple animal categories (urchin, shells, etc.), but these are model outputs and not visually confirmed as distinct objects in this image.\n\n3. Potential environmental impacts\n- If the rope or cable is synthetic and abandoned, it could pose entanglement or abrasion risks to benthic organisms over time.\n- No chemical contamination is confirmed or visually evident.\n\n4. Possible marine risks\n- Entanglement hazard for benthic fauna if the rope is synthetic and remains in place.\n- Physical disturbance to the seabed from the rope’s presence.\n- No acute risks such as sharp debris or toxic materials are visibly supported.\n\n5. Suggested cleanup or monitoring actions\n- Visually verify whether the rope/cable is anthropogenic debris or natural material.\n- If confirmed as debris, consider targeted removal to prevent long-term benthic impacts.\n- Conduct repeat surveys to monitor for accumulation of additional debris.\n- Avoid interpreting detector confidence scores as confirmation of species or debris presence.\n\n6. Overall assessment\n- The image shows a sandy seabed with one prominent rope-like object and scattered natural material.\n- No significant debris field or chemical contamination is visually supported.\n- Detector outputs suggest biological detections, but these are not independently verified from the image.\n- The scene appears to have low-level potential risk primarily from the rope/cable, pending confirmation of its nature.",
+            "processing_time_seconds": 5.27
+        },
+        {
+            "image_index": 209,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bag_plastic",
+                    "confidence": 0.9963,
+                    "box_xyxy": [
+                        398.67,
+                        252.02,
+                        486.29,
+                        316.63
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- The underwater scene is dominated by greenish, turbid water with a textured seabed that appears to be covered by algae, seagrass, or sediment.  \n- No distinct plastic bag or other clearly identifiable debris is visually supported in the image.  \n- The detector’s “bag_plastic” prediction (confidence 0.9963) is not corroborated by visible evidence; confidence alone does not confirm the presence of debris.\n\n2. Environmental observations  \n- Water visibility is limited, with a green tint suggesting suspended particles or algal presence.  \n- The seabed appears uneven and biologically covered, though specific species cannot be identified from this image alone.  \n- No obvious anthropogenic objects are clearly distinguishable.\n\n3. Potential environmental impacts  \n- If plastic debris were present but obscured by turbidity or camouflage, it could pose ingestion or entanglement risks to marine life.  \n- Because no debris is visually confirmed, no specific impact can be attributed to this scene.\n\n4. Possible marine risks  \n- Low visibility may hide smaller debris items from visual detection.  \n- Any undetected plastic could fragment over time into microplastics, but this is a possibility, not an observation from the image.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a targeted visual or ROV survey in clearer conditions or with improved lighting to verify whether any debris is present.  \n- If debris is later confirmed, document location and type before planning removal.  \n- Continue routine monitoring of the area, especially if it is known to accumulate marine litter.\n\n6. Overall assessment  \n- The image does not provide visible support for the detector’s “bag_plastic” prediction.  \n- No marine debris is visually confirmed in this frame.  \n- The detector output should be treated as an unconfirmed alert requiring visual verification before any cleanup or reporting action.",
+            "processing_time_seconds": 18.1
+        },
+        {
+            "image_index": 1116,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bag_plastic",
+                    "confidence": 0.9981,
+                    "box_xyxy": [
+                        187.36,
+                        524.99,
+                        271.76,
+                        594.42
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- The underwater image shows green-tinted water with low visibility and indistinct bottom features.  \n- No clearly identifiable plastic bag or other debris is visually supported in the image.  \n- The detector’s “bag_plastic” label is not confirmed by visible evidence in this frame.\n\n2. Environmental observations  \n- Water appears turbid, with limited clarity and diffuse lighting.  \n- Bottom substrate is not clearly resolved; possible natural sediment or vegetation is present but cannot be identified with confidence.  \n- No distinct anthropogenic objects are visible.\n\n3. Potential environmental impacts  \n- If plastic debris were present but undetected due to low visibility, it could pose ingestion or entanglement risks to marine life.  \n- This is a possibility only; no confirmed debris or impact is visible in the image.\n\n4. Possible marine risks  \n- Reduced visibility may hinder detection of submerged debris.  \n- Any undetected plastic could persist in the environment and fragment over time.  \n- These are conditional risks based on the imaging conditions, not confirmed observations.\n\n5. Suggested cleanup or monitoring actions  \n- Re-inspect the area with improved lighting or closer-range imaging to verify whether any debris is present.  \n- Conduct a targeted visual survey if the detector alert warrants follow-up.  \n- Document water clarity and visibility conditions for future survey planning.\n\n6. Overall assessment  \n- No debris is visibly supported in this image.  \n- The detector prediction alone is not sufficient to confirm the presence of a plastic bag.  \n- Further visual verification is recommended before classifying this frame as containing marine debris.",
+            "processing_time_seconds": 3.77
+        },
+        {
+            "image_index": 178,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bottle_plastic",
+                    "confidence": 0.9941,
+                    "box_xyxy": [
+                        444.24,
+                        439.4,
+                        753.08,
+                        556.44
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9888,
+                    "box_xyxy": [
+                        1030.39,
+                        546.78,
+                        1090.29,
+                        596.26
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9862,
+                    "box_xyxy": [
+                        1633.95,
+                        724.08,
+                        1709.26,
+                        787.12
+                    ]
+                },
+                {
+                    "object": "animal_sponge",
+                    "confidence": 0.9854,
+                    "box_xyxy": [
+                        266.62,
+                        150.29,
+                        584.96,
+                        375.88
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9774,
+                    "box_xyxy": [
+                        35.41,
+                        702.78,
+                        110.47,
+                        782.77
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9767,
+                    "box_xyxy": [
+                        933.8,
+                        792.55,
+                        997.43,
+                        857.8
+                    ]
+                },
+                {
+                    "object": "animal_sponge",
+                    "confidence": 0.9767,
+                    "box_xyxy": [
+                        570.8,
+                        162.46,
+                        702.33,
+                        360.31
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9532,
+                    "box_xyxy": [
+                        1115.66,
+                        363.59,
+                        1186.92,
+                        411.49
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9455,
+                    "box_xyxy": [
+                        519.42,
+                        355.91,
+                        583.86,
+                        409.02
+                    ]
+                },
+                {
+                    "object": "animal_sponge",
+                    "confidence": 0.7938,
+                    "box_xyxy": [
+                        21.03,
+                        568.06,
+                        330.53,
+                        766.1
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.7769,
+                    "box_xyxy": [
+                        941.32,
+                        162.31,
+                        984.65,
+                        200.94
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.6856,
+                    "box_xyxy": [
+                        730.23,
+                        427.51,
+                        791.74,
+                        490.16
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.617,
+                    "box_xyxy": [
+                        1334.61,
+                        64.81,
+                        1384.76,
+                        103.69
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A light-colored, elongated object lying on the seabed, consistent in shape with a plastic bottle; detector labels it as bottle_plastic.  \n- Several dark, rounded benthic features scattered across the sandy bottom; detector labels some as animal_urchin and animal_sponge, but image clarity is too low to confirm biological identity.  \n- A thin linear feature crossing the frame, possibly a rope, cable, or transect line; origin and material are not visually determinable.  \n- Seabed substrate appears to be sand or fine sediment with low visibility due to turbidity.\n\n2. Environmental observations  \n- Water is turbid, reducing contrast and detail across the scene.  \n- The seabed is predominantly soft sediment with sparse, low-relief features.  \n- No large aggregations of debris or obvious structural habitat are visible beyond the single elongated object and the linear feature.\n\n3. Potential environmental impacts  \n- If the elongated object is confirmed as plastic debris, it could contribute to benthic litter and pose ingestion or entanglement concerns for benthic fauna.  \n- The linear feature, if anthropogenic, could represent abandoned fishing gear or mooring line, which may cause physical disturbance or ghost fishing.  \n- These are possibilities based on object shape and context; no direct harm to organisms is observed in the image.\n\n4. Possible marine risks  \n- Persistent plastic items may fragment over time into microplastics.  \n- Unidentified lines or cables could snag marine life or interfere with benthic habitats.  \n- Risks remain speculative because object identities and interactions are not confirmed visually.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a targeted visual or ROV re-survey of the elongated object to confirm whether it is debris and assess removability.  \n- If safe and feasible, retrieve the object for proper disposal.  \n- Map and monitor the linear feature to determine if it is active gear or derelict material.  \n- Repeat surveys over time to track changes in debris accumulation or turbidity.\n\n6. Overall assessment  \nThe image shows one visually supported candidate debris item (a bottle-like object on the seabed) and an unidentified linear feature. Detector outputs for urchins and sponges are not visually verifiable due to image quality and should not be treated as confirmed biological observations. No chemical contamination is evident or confirmed. The scene indicates low-level potential benthic debris presence requiring verification and possible removal, but no acute environmental impact is demonstrated by the image alone.",
+            "processing_time_seconds": 5.45
+        },
+        {
+            "image_index": 864,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9748,
+                    "box_xyxy": [
+                        1253.77,
+                        662.35,
+                        1309.18,
+                        710.15
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9554,
+                    "box_xyxy": [
+                        1750.87,
+                        739.42,
+                        1827.12,
+                        801.14
+                    ]
+                },
+                {
+                    "object": "can_metal",
+                    "confidence": 0.8838,
+                    "box_xyxy": [
+                        1127.78,
+                        105.79,
+                        1200.46,
+                        213.48
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.8608,
+                    "box_xyxy": [
+                        570.6,
+                        514.94,
+                        618.18,
+                        556.85
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.857,
+                    "box_xyxy": [
+                        806.68,
+                        472.92,
+                        849.49,
+                        509.61
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.8368,
+                    "box_xyxy": [
+                        1579.72,
+                        368.44,
+                        1631.81,
+                        410.62
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.6932,
+                    "box_xyxy": [
+                        676.14,
+                        375.43,
+                        717.46,
+                        409.38
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.6239,
+                    "box_xyxy": [
+                        1185.3,
+                        385.18,
+                        1232.41,
+                        425.4
+                    ]
+                },
+                {
+                    "object": "can_metal",
+                    "confidence": 0.5813,
+                    "box_xyxy": [
+                        1196.76,
+                        279.09,
+                        1248.58,
+                        327.34
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A sandy or silty seabed with low visibility due to turbid water.  \n- Several indistinct dark shapes on the bottom that may be natural debris, rocks, or small organisms; none can be confidently identified as sea urchins or metal cans from the image alone.  \n- A faint, elongated light-colored object near the lower center that could be a piece of debris or a natural feature; its identity is unclear.  \n- No clearly recognizable animal_urchin or can_metal objects are visually supported in the image.\n\n2. Environmental observations  \n- Water is murky, limiting visibility and making detailed identification difficult.  \n- The seabed appears soft and uneven, with scattered small dark patches that could be sediment variations, organic matter, or small objects.  \n- No large, obvious debris items are clearly visible.\n\n3. Potential environmental impacts  \n- If undetected or uncollected debris such as metal cans were present, they could persist on the seabed and potentially affect benthic habitats.  \n- Because no debris is clearly confirmed in this image, no specific impact can be attributed to visible objects at this time.\n\n4. Possible marine risks  \n- Metal debris, if present and corroded over time, could pose a risk to benthic organisms, but this is speculative and not confirmed by the image.  \n- Low visibility may hinder detection of smaller debris items during surveys.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a follow-up visual survey with improved lighting or water clarity to verify whether any of the dark shapes are debris or marine life.  \n- If debris is confirmed in subsequent surveys, plan targeted removal based on object type and location.  \n- Monitor the site periodically to track changes in debris accumulation.\n\n6. Overall assessment  \nThe detector predictions (animal_urchin and can_metal) are not visually supported by the attached image. No debris or marine organisms can be confidently identified from the available visual evidence due to low visibility and lack of clear object shapes. Further inspection is needed before making debris-related conclusions.",
+            "processing_time_seconds": 4.9
+        },
+        {
+            "image_index": 65,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9941,
+                    "box_xyxy": [
+                        485.48,
+                        684.45,
+                        559.32,
+                        732.27
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9924,
+                    "box_xyxy": [
+                        371.39,
+                        832.61,
+                        445.84,
+                        929.33
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9916,
+                    "box_xyxy": [
+                        438.25,
+                        122.48,
+                        499.8,
+                        174.73
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9877,
+                    "box_xyxy": [
+                        14.96,
+                        500.54,
+                        90.66,
+                        574.23
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9827,
+                    "box_xyxy": [
+                        625.76,
+                        388.77,
+                        691.03,
+                        438.94
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9799,
+                    "box_xyxy": [
+                        35.51,
+                        753.72,
+                        120.61,
+                        834.71
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9249,
+                    "box_xyxy": [
+                        276.5,
+                        513.61,
+                        359.26,
+                        578.92
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.6599,
+                    "box_xyxy": [
+                        168.03,
+                        91.96,
+                        203.7,
+                        131.98
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- Seafloor composed of sand, scattered rocks, and low-relief hard substrate.  \n- Several dark, rounded benthic organisms consistent with sea urchins are visible on the bottom.  \n- No anthropogenic marine debris (e.g., plastic, metal, glass, fishing gear) is clearly visible in the image.  \n- Detector predictions for “animal_urchin” are noted, but confidence scores are not treated as visual confirmation.\n\n2. Environmental observations  \n- Water is turbid with limited visibility; fine particulate matter is suspended in the water column.  \n- Benthic habitat appears to be a mixed sand-and-rock seabed.  \n- Visible organisms are limited to dark, spiny benthic forms resembling sea urchins; no fish, corals, or other megafauna are clearly distinguishable.  \n- Depth/temperature overlay reads 1.3 m and 23.7 °C, indicating shallow, warm-water conditions.\n\n3. Potential environmental impacts  \n- No visible debris means no direct debris-related impacts (e.g., entanglement, ingestion, smothering) can be attributed from this image alone.  \n- High turbidity may reduce light penetration and affect benthic primary production, but this is an observation, not a confirmed impact.\n\n4. Possible marine risks  \n- If sea urchins are present in high densities, they could potentially graze on benthic algae or seagrass, but population-level effects cannot be determined from this single frame.  \n- No immediate physical risks from visible debris are supported by the image.\n\n5. Suggested cleanup or monitoring actions  \n- No cleanup action is indicated because no debris is visibly supported.  \n- Repeat visual surveys or transects could confirm urchin distribution and monitor for future debris accumulation.  \n- Water clarity measurements could help contextualize turbidity observations.\n\n6. Overall assessment  \nThe image shows a shallow, turbid sandy-rocky seabed with benthic organisms resembling sea urchins. No marine debris is visually confirmed. Detector outputs alone do not establish the presence or absence of debris or contamination.",
+            "processing_time_seconds": 4.64
+        },
+        {
+            "image_index": 61,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9993,
+                    "box_xyxy": [
+                        1166.73,
+                        117.16,
+                        1728.72,
+                        600.57
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- The detector reports a “tire_rubber” prediction with confidence 0.9993, but no tire-like object is clearly distinguishable in the image.  \n- Visible features include a greenish, turbid underwater scene with a dark circular opening or cavity on the right side and scattered small light-colored patches on the seabed.  \n- No distinct debris item can be confirmed visually from the available image.\n\n2. Environmental observations  \n- Water visibility is low, with a green tint suggesting suspended particles or algae.  \n- The seabed appears uneven and partially covered by sediment or biological growth.  \n- A dark hole or crevice is present on the right side of the frame.\n\n3. Potential environmental impacts  \n- If the detector’s tire_rubber label were correct, a submerged tire could contribute to long-term physical debris and possible leaching of rubber additives.  \n- Because the object is not visually confirmed, no specific impact can be attributed to debris in this image.\n\n4. Possible marine risks  \n- Unconfirmed debris, if present, could pose entanglement or habitat disturbance risks to benthic organisms.  \n- The dark cavity could shelter small marine life, but this is speculative based on the image alone.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection or targeted survey of the area indicated by the detector to verify whether a tire or other debris is present.  \n- If debris is confirmed, document its location and condition before planning removal.  \n- Monitor the site periodically for changes in debris accumulation or water clarity.\n\n6. Overall assessment  \n- The detector’s tire_rubber prediction is not visually supported in this image; no debris item is clearly identifiable.  \n- The scene shows low-visibility underwater conditions with natural seabed features, but no confirmed marine debris.  \n- Further verification is required before classifying this as a debris-affected site.",
+            "processing_time_seconds": 6.52
+        },
+        {
+            "image_index": 191,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9984,
+                    "box_xyxy": [
+                        1508.54,
+                        924.73,
+                        1834.0,
+                        1078.19
+                    ]
+                },
+                {
+                    "object": "bag_plastic",
+                    "confidence": 0.9981,
+                    "box_xyxy": [
+                        965.12,
+                        918.9,
+                        1072.08,
+                        1024.01
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A dark, roughly circular object is partially visible in the lower-right corner; its shape is consistent with a tire or tire-like debris, but turbidity and partial occlusion prevent definitive identification.  \n- No object is visually supported as a plastic bag.  \n- The seabed appears covered with natural material (sediment, algae, or vegetation) and scattered indistinct shapes that cannot be confidently classified as debris.\n\n2. Environmental observations  \n- Water is turbid with a greenish cast and reduced visibility.  \n- Numerous backscatter particles or suspended matter are visible throughout the water column.  \n- Lighting is diffuse; fine detail on the seafloor is obscured.\n\n3. Potential environmental impacts  \n- If the circular object is a tire, it could persist in the marine environment and potentially leach rubber-derived compounds over long periods, though no chemical contamination is confirmed by this image.  \n- Unidentified seabed objects may contribute to physical habitat disturbance if they are anthropogenic debris.\n\n4. Possible marine risks  \n- A tire-shaped object could pose an entanglement or ingestion risk to benthic organisms if confirmed as debris.  \n- Suspended particulates may reduce light penetration and affect photosynthetic organisms, but this is an observation of water clarity, not a confirmed biological impact.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection or ROV survey of the lower-right object to confirm whether it is a tire or other debris.  \n- If confirmed as debris, document its location and condition for potential removal planning.  \n- Monitor the site for additional debris accumulation, particularly in low-visibility conditions where objects may be overlooked.\n\n6. Overall assessment  \nThe image shows an underwater scene with limited visibility. One tire-like object is partially visible but not definitively identified. Detector predictions for tire_rubber and bag_plastic are not treated as confirmed identifications; no plastic bag is visually supported. No chemical contamination is confirmed. Further inspection is needed before classifying objects or planning cleanup.",
+            "processing_time_seconds": 4.58
+        },
+        {
+            "image_index": 447,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9993,
+                    "box_xyxy": [
+                        826.69,
+                        41.8,
+                        1342.08,
+                        458.11
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- The underwater scene is murky and green-tinted, with low visibility.  \n- No distinct tire or rubber object is clearly identifiable in the image.  \n- The detector’s “tire_rubber” label is not visually supported by a clear object shape or texture.\n\n2. Environmental observations  \n- Water appears turbid with suspended particles.  \n- Seabed or submerged surface is indistinct due to poor lighting and visibility.  \n- Some irregular shapes and patches are present but cannot be confidently classified as debris or natural features.\n\n3. Potential environmental impacts  \n- If a tire or rubber item were present, it could persist in the marine environment and potentially leach additives over time.  \n- This is a general possibility, not a confirmed impact for this image.\n\n4. Possible marine risks  \n- Unidentified submerged objects could pose entanglement or ingestion hazards to marine life if they are debris.  \n- No specific risk can be confirmed from the visual evidence alone.\n\n5. Suggested cleanup or monitoring actions  \n- Re-examine the image with enhanced contrast or additional frames to verify whether any object matches a tire or rubber debris.  \n- If debris is confirmed in a follow-up review, document location and consider targeted removal.  \n- Continue routine visual surveys in the area to monitor for accumulation of anthropogenic items.\n\n6. Overall assessment  \n- The detector’s high confidence score does not constitute visual confirmation.  \n- No tire_rubber debris is visibly supported in this image.  \n- The scene is too unclear to confirm or rule out debris; further visual verification is needed before declaring debris present or absent.",
+            "processing_time_seconds": 9.64
+        },
+        {
+            "image_index": 476,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.999,
+                    "box_xyxy": [
+                        665.01,
+                        457.49,
+                        1132.44,
+                        847.06
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- The underwater image shows a green-tinted, low-visibility scene with diffuse light and scattered backscatter particles.  \n- No distinct tire, rubber object, or other identifiable debris is visually supported in the image.  \n- The detector label “tire_rubber” is not corroborated by visible evidence in this frame.\n\n2. Environmental observations  \n- Water appears turbid with suspended particulate matter.  \n- Visibility is limited; fine structural or textural details are obscured.  \n- No clear seabed features, marine life, or anthropogenic objects can be confidently identified.\n\n3. Potential environmental impacts  \n- Cannot be determined from this image because no debris is visibly confirmed.  \n- If submerged rubber or tire debris were present elsewhere, possible impacts could include physical smothering, leaching of additives, or entanglement hazards, but these are speculative and not supported by this frame.\n\n4. Possible marine risks  \n- No specific risks are visually evident in this image.  \n- General risks associated with unseen underwater debris (e.g., ingestion, entanglement, habitat alteration) cannot be confirmed or ruled out from this frame alone.\n\n5. Suggested cleanup or monitoring actions  \n- Re-acquire higher-visibility imagery or video of the same location to verify whether any debris is present.  \n- If debris is later confirmed, document GPS coordinates, depth, and condition before planning removal.  \n- Conduct a broader survey of the area to assess whether additional debris exists beyond this single frame.\n\n6. Overall assessment  \n- The detector prediction (“tire_rubber,” confidence 0.999) is not supported by visible evidence in this image.  \n- No debris is visually confirmed.  \n- The image alone does not provide a basis for declaring the presence of marine debris or initiating cleanup at this location.",
+            "processing_time_seconds": 4.37
+        },
+        {
+            "image_index": 1034,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "tire_rubber",
+                    "confidence": 0.9993,
+                    "box_xyxy": [
+                        287.26,
+                        463.14,
+                        611.34,
+                        791.13
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A circular, dark object on the seabed consistent in shape with a tire or tire fragment; detector labeled it tire_rubber with confidence 0.9993.  \n- Surrounding seabed appears covered in sediment, algae, or marine growth; some indistinct debris-like shapes are present but not clearly identifiable.\n\n2. Environmental observations  \n- Water is turbid with a greenish tint, reducing visibility.  \n- The circular object rests directly on the bottom substrate and appears partially encrusted or settled into the sediment.  \n- No clear signs of active leakage, sheen, or discoloration around the object are visible.\n\n3. Potential environmental impacts  \n- If the object is rubber tire debris, it could persist for long periods and may physically disturb benthic habitat.  \n- Over time, tire rubber can fragment into smaller particles, but no fragmentation or chemical release is visually confirmed in this image.\n\n4. Possible marine risks  \n- Benthic organisms may be smothered or displaced where the object contacts the seabed.  \n- Unconfirmed possibility of microplastic generation or chemical leaching from degrading rubber; this is not supported by direct visual evidence.\n\n5. Suggested cleanup or monitoring actions  \n- Verify the object’s identity and condition with closer visual inspection or ROV survey.  \n- If confirmed as tire debris, consider targeted removal to prevent further fragmentation or habitat disturbance.  \n- Monitor the surrounding area for additional similar debris.\n\n6. Overall assessment  \n- One probable tire-like object is visible on the seabed, but detector confidence alone does not confirm material or identity.  \n- No chemical contamination or acute hazard is visually evident.  \n- Debris presence is supported; specific impacts remain possible rather than confirmed.",
+            "processing_time_seconds": 4.63
+        },
+        {
+            "image_index": 54,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.9959,
+                    "box_xyxy": [
+                        1203.29,
+                        302.69,
+                        1463.98,
+                        475.18
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.9933,
+                    "box_xyxy": [
+                        881.18,
+                        448.54,
+                        1033.23,
+                        671.06
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9619,
+                    "box_xyxy": [
+                        927.98,
+                        361.03,
+                        982.61,
+                        410.38
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.698,
+                    "box_xyxy": [
+                        1197.3,
+                        206.66,
+                        1254.79,
+                        256.43
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.5405,
+                    "box_xyxy": [
+                        561.0,
+                        398.5,
+                        627.28,
+                        460.27
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A sandy or silty seabed is visible across the frame.  \n- Several dark, elongated shapes lie on or near the bottom; their exact identity is unclear due to low visibility and image resolution.  \n- No distinct marine animals, debris items, or artificial objects can be confidently identified from the image alone.\n\n2. Environmental observations  \n- Water clarity is low, with a greenish-blue turbid appearance.  \n- The seabed appears soft and unconsolidated.  \n- Lighting is diffuse, suggesting depth or suspended particles limiting visibility.\n\n3. Potential environmental impacts  \n- No visible litter, plastic, fishing gear, or chemical contamination is supported by the image.  \n- Any impact assessment would require clearer imagery or direct sampling.\n\n4. Possible marine risks  \n- The dark shapes could be natural features (e.g., seaweed, sediment ridges, or biological forms) or possibly debris, but this cannot be determined visually.  \n- Detector labels such as “animal_etc” or “animal_urchin” are model outputs and do not confirm the presence of those organisms.\n\n5. Suggested cleanup or monitoring actions  \n- No cleanup action is indicated based on visible evidence.  \n- Recommend repeat surveys with improved lighting or closer-range imaging to clarify the nature of the dark seabed features.  \n- Consider benthic sampling or video transects if monitoring of this area is required.\n\n6. Overall assessment  \n- The image shows a turbid underwater seabed with no visually confirmed marine debris.  \n- Detector predictions alone are not sufficient to identify objects or assess environmental condition.  \n- No claim of contamination or biological presence is supported by the available visual evidence.",
+            "processing_time_seconds": 4.63
+        },
+        {
+            "image_index": 1149,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bottle_glass",
+                    "confidence": 0.9802,
+                    "box_xyxy": [
+                        646.6,
+                        357.95,
+                        898.62,
+                        530.22
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- Seabed covered with sand/sediment and scattered natural debris (e.g., seaweed or seagrass fragments).  \n- A detector flagged “bottle_glass” with confidence 0.9802, but no object in the image is clearly identifiable as a glass bottle; the visual evidence is ambiguous due to turbidity and low contrast.\n\n2. Environmental observations  \n- Water is turbid, reducing visibility.  \n- Seabed appears soft and uneven, with organic material present.  \n- No distinct anthropogenic debris is visually confirmed.\n\n3. Potential environmental impacts  \n- If a glass bottle were present, it could persist on the seabed and pose physical hazards to benthic organisms.  \n- No chemical contamination is confirmed or visually supported.\n\n4. Possible marine risks  \n- Unverified debris could entangle or injure marine life if present.  \n- Low visibility may hinder detection of additional debris.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection or targeted survey of the flagged area to verify whether any glass bottle exists.  \n- If confirmed, plan careful removal to avoid disturbing sediment or benthic habitats.  \n- Continue routine monitoring of the site for additional debris.\n\n6. Overall assessment  \n- The detector prediction is not supported by clear visual evidence in this image.  \n- No debris is visibly confirmed; the scene is dominated by natural seabed features and turbid water.  \n- Further verification is required before classifying any object as marine debris.",
+            "processing_time_seconds": 4.04
+        },
+        {
+            "image_index": 407,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bottle_plastic",
+                    "confidence": 0.9985,
+                    "box_xyxy": [
+                        716.05,
+                        102.42,
+                        1037.34,
+                        372.81
+                    ]
+                },
+                {
+                    "object": "animal_sponge",
+                    "confidence": 0.9921,
+                    "box_xyxy": [
+                        134.62,
+                        352.07,
+                        288.48,
+                        491.62
+                    ]
+                },
+                {
+                    "object": "animal_sponge",
+                    "confidence": 0.9913,
+                    "box_xyxy": [
+                        68.46,
+                        2.34,
+                        478.17,
+                        309.6
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \nThe image is highly turbid and low-contrast. No distinct bottle_plastic or animal_sponge objects are visually identifiable. The only clearly legible element is the on-screen overlay text “4.1 m” and “23.9 °C.” Faint, diffuse shapes on the seabed are present but cannot be confidently classified as debris or marine life.\n\n2. Environmental observations  \nWater visibility is extremely poor, likely due to suspended sediment or particulate matter. The seabed appears to be soft sediment, but details are obscured. No clear anthropogenic debris or biological structures are visible.\n\n3. Potential environmental impacts  \nNo impacts can be confirmed from this image alone. If plastic debris were present (as suggested by the detector output), potential impacts could include ingestion or entanglement hazards for benthic organisms, but this remains speculative without visual confirmation.\n\n4. Possible marine risks  \nPossible risks cannot be verified visually. If unverified detections were accurate, risks might include physical harm to benthic fauna from debris or smothering by sediment, but these are possibilities, not observations.\n\n5. Suggested cleanup or monitoring actions  \n- Re-acquire imagery with improved lighting or after sediment settles to verify detector predictions.  \n- Conduct a targeted visual or ROV survey at the logged depth (4.1 m) to confirm or refute the presence of plastic bottles or sponges.  \n- If debris is confirmed, plan selective removal and document with georeferenced imagery.\n\n6. Overall assessment  \nThe detector outputs are not supported by visible evidence in this image. No debris or marine organisms can be confidently identified due to severe turbidity. The scene is visually inconclusive; further surveying is required before any cleanup or impact conclusions are drawn.",
+            "processing_time_seconds": 9.25
+        },
+        {
+            "image_index": 859,
+            "ai_provider": "OpenRouter",
+            "ai_model": "nvidia/nemotron-3.5-super-vl:free",
+            "detections": [
+                {
+                    "object": "bottle_glass",
+                    "confidence": 0.9978,
+                    "box_xyxy": [
+                        396.43,
+                        178.46,
+                        647.66,
+                        340.23
+                    ]
+                },
+                {
+                    "object": "animal_urchin",
+                    "confidence": 0.9951,
+                    "box_xyxy": [
+                        1443.85,
+                        653.53,
+                        1530.79,
+                        739.36
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.9914,
+                    "box_xyxy": [
+                        837.03,
+                        267.66,
+                        981.22,
+                        415.12
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.9859,
+                    "box_xyxy": [
+                        17.38,
+                        261.09,
+                        249.05,
+                        344.24
+                    ]
+                },
+                {
+                    "object": "animal_etc",
+                    "confidence": 0.7051,
+                    "box_xyxy": [
+                        956.05,
+                        37.82,
+                        1063.7,
+                        102.12
+                    ]
+                }
+            ],
+            "environmental_analysis": "1. Visible objects  \n- A sandy, silty seabed with low underwater visibility.  \n- Several elongated, dark objects partially buried or resting on the bottom; their shapes are indistinct due to turbidity.  \n- One object on the lower right has a curved, hollow appearance that could resemble a bottle or tube, but this is not confirmed.  \n- No clearly identifiable glass bottle, sea urchin, or other animal is visually distinguishable in the image.  \n- Detector labels (bottle_glass, animal_urchin, animal_etc) are algorithmic outputs and are not treated as confirmed visual identifications.\n\n2. Environmental observations  \n- Water is turbid, limiting visibility across the seabed.  \n- Substrate appears to be fine sediment with scattered small rocks or shell fragments.  \n- No dense biological cover (e.g., seagrass, coral, or large invertebrate aggregations) is visible.  \n- Depth and temperature overlay reads 3.0 m and 23.5 °C.\n\n3. Potential environmental impacts  \n- If any of the dark elongated objects are anthropogenic debris (e.g., bottles, tubes, or other refuse), they could contribute to seafloor litter.  \n- Possible impacts include physical smothering of benthic habitat, entanglement risk for small organisms, or slow leaching of materials, but these are speculative without confirmed debris identification.\n\n4. Possible marine risks  \n- Unidentified submerged objects may pose navigation or snagging hazards.  \n- If debris is present, there is a general risk of ingestion or entanglement by benthic fauna, though no such interaction is observed.  \n- No visible signs of acute chemical contamination, oil sheen, or biological distress are present.\n\n5. Suggested cleanup or monitoring actions  \n- Conduct a closer visual inspection (e.g., diver survey or ROV) to confirm whether any objects are debris or natural features.  \n- If debris is confirmed, document location and type before planning targeted removal.  \n- Establish periodic monitoring of the site to track changes in debris accumulation or benthic condition.\n\n6. Overall assessment  \n- The image shows a turbid, sediment-dominated seabed at approximately 3 m depth.  \n- No debris is definitively visually supported; detector predictions alone are insufficient to confirm the presence of a glass bottle, urchin, or other animals.  \n- The scene does not show confirmed pollution or acute environmental damage, but the presence of ambiguous objects warrants verification through direct observation.",
+            "processing_time_seconds": 5.46
+        }
+    ],
+    "errors": []
+}

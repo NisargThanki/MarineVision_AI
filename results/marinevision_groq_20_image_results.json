@@ -1,0 +1,91 @@
+{
+    "project": "MarineVision AI",
+    "ai_provider": "Groq",
+    "ai_model": "openai/gpt-oss-120b",
+    "total_images": 20,
+    "successful_images": 0,
+    "failed_images": 20,
+    "results": [],
+    "errors": [
+        {
+            "image_index": 228,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 51,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 563,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 501,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 457,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 285,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 209,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 1116,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 178,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 864,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 65,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 61,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 191,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 447,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 476,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 1034,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 54,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 1149,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 407,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        },
+        {
+            "image_index": 859,
+            "error": "Error code: 400 - {'error': {'message': 'messages[0].content must be a string', 'type': 'invalid_request_error', 'param': 'messages[0].content'}}"
+        }
+    ]
+}

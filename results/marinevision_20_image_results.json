@@ -1,0 +1,323 @@
+[
+    {
+        "image_index": 228,
+        "detections": [
+            {
+                "object": "can_metal",
+                "confidence": 0.9971
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected an object identified as 'can_metal' with a confidence of 0.9971. Visually, a light-colored, cylindrical object consistent with a metal can is observed suspended in the water column.",
+            "environmental_observations": "The underwater environment exhibits relatively clear, turquoise water. The seabed appears to be composed of sand with sparse patches of what appears to be marine vegetation, possibly seagrass or algae. No immediate visible signs of extensive sediment disturbance or widespread pollution are evident in the general area. The detected object is not on the seabed but is floating or suspended.",
+            "potential_impacts": "The presence of a metal can represents man-made litter. Over time, metal objects can corrode, potentially releasing trace metals into the marine environment, though confirming this would require chemical analysis. The can could also act as a physical hazard, potentially causing entanglement for marine fauna or being ingested by animals mistaking it for food. Its current suspended state means it could drift and settle in a more sensitive habitat.",
+            "marine_risks": "Primary marine risks include potential entanglement or ingestion by marine organisms, especially given its suspended position. As the material degrades, sharp edges may pose a laceration risk. The introduction of non-natural materials can also lead to habitat alteration or contribute to microplastic pollution if it breaks down.",
+            "cleanup_recommendations": "Given the object's visible nature and its suspended state, manual retrieval is recommended as a priority to prevent it from settling, breaking down, or drifting further. Once retrieved, the object should be disposed of properly, ideally recycled if feasible, to prevent re-entry into the marine ecosystem.",
+            "overall_assessment": "The presence of a single, identifiable piece of man-made litter (a metal can) indicates human impact on this marine environment. While only one item is detected, its removal is advisable to mitigate potential ecological risks such as entanglement, ingestion, and the long-term effects of material degradation. The water clarity and general seabed appearance suggest a relatively healthy environment, emphasizing the importance of removing such foreign objects to maintain its condition."
+        },
+        "processing_time": 8.09
+    },
+    {
+        "image_index": 51,
+        "detections": [
+            {
+                "object": "bottle_glass",
+                "confidence": 0.9198
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected a 'bottle_glass' with a confidence of 0.9198. Visually, a prominent green glass bottle is observed in the foreground, partially buried in the seafloor sediment. The high confidence level suggests a strong probability of accurate identification.",
+            "environmental_observations": "The underwater image displays a seafloor predominantly composed of sand and small rocks, with various debris scattered and partially embedded. Besides the clearly visible green glass bottle, there appear to be other fragments or objects, possibly additional glass or general refuse, dispersed across the seabed. The water column shows some suspended particles, potentially marine snow or disturbed sediment. Environmental parameters captured indicate a depth of 7.1 meters and a water temperature of 23\u00b0C.",
+            "potential_impacts": "The presence of glass bottles and other debris on the seafloor can lead to habitat degradation by altering the natural substrate and potentially covering benthic organisms. Glass, being non-biodegradable, will persist for extended periods. While the specific contents of the bottle are unknown, litter can also introduce microplastics as it degrades or breaks into smaller pieces. The visual evidence suggests localized pollution.",
+            "marine_risks": "The detected glass bottle poses risks of physical injury to marine fauna, such as cuts or entanglement, especially if broken. It can also act as a substrate for invasive species or trap small organisms. The cumulative effect of such debris contributes to overall ocean pollution, potentially impacting food chains and ecosystem health if ingested by marine animals. The visible debris collectively indicates human impact on this marine environment.",
+            "cleanup_recommendations": "Given the presence of a glass bottle and other visible debris, targeted removal of identified litter is recommended to mitigate immediate physical hazards and improve habitat quality. A localized cleanup effort focusing on the visible refuse would be beneficial. Further surveys could help determine the extent of debris accumulation in the broader area.",
+            "overall_assessment": "Based on the visual evidence and AI detection, the marine environment at this location shows signs of anthropogenic impact, specifically in the form of litter, including a glass bottle. While the immediate visible pollution appears localized, the persistence of such materials warrants concern for habitat integrity and marine life safety. The overall condition suggests a need for intervention to remove the debris and prevent further accumulation."
+        },
+        "processing_time": 7.72
+    },
+    {
+        "image_index": 563,
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+        "image_index": 501,
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+        "image_index": 457,
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+        "image_index": 285,
+        "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+        "image_index": 209,
+        "detections": [
+            {
+                "object": "bag_plastic",
+                "confidence": 0.9995
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI identified an object as a 'bag_plastic' with a high confidence level of 0.9995. Visually, a light-colored, somewhat indistinct object consistent with a plastic bag appears to be suspended or floating in the water column, noticeable in the upper left portion of the main image and corresponding crops.",
+            "environmental_observations": "The underwater environment exhibits murky green water, suggesting limited visibility. Patches of what appear to be submerged vegetation or benthic structure are visible, particularly in the lower and central areas of the image. The detected plastic bag is observed within this water column.",
+            "potential_impacts": "The presence of a plastic bag in the marine environment can lead to several adverse impacts. These include entanglement of marine fauna, mistaken ingestion by animals, and habitat degradation. Over time, plastic bags can break down into microplastics, contributing to broader environmental pollution.",
+            "marine_risks": "The detected plastic bag poses a direct risk of entanglement to various marine organisms, such as fish, turtles, and marine mammals, which may become trapped or impeded by the material. There is also a risk of ingestion by marine animals mistaking it for food, which can lead to internal injuries, blockages, and starvation.",
+            "cleanup_recommendations": "It is recommended to retrieve the detected plastic bag from the marine environment promptly to prevent further ecological harm. A localized cleanup effort should be organized, and subsequent monitoring of the area for additional marine debris is advised to assess the overall litter situation.",
+            "overall_assessment": "The detection of a plastic bag confirms the presence of anthropogenic litter in this marine habitat. While only a single object was identified by the AI, its existence represents an immediate and potential long-term hazard to marine ecosystems and wildlife. Timely removal is crucial to mitigate identified risks and maintain environmental health."
+        },
+        "processing_time": 8.38
+    },
+    {
+        "image_index": 178,
+        "detections": [
+            {
+                "object": "animal_sponge",
+                "confidence": 0.9691
+            },
+            {
+                "object": "animal_urchin",
+                "confidence": 0.7374
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected 'animal_sponge' (Confidence: 0.9691) and 'animal_urchin' (Confidence: 0.7374), indicating the probable presence of these benthic invertebrates. Additionally, visible evidence in the image includes several pieces of anthropogenic debris on the seafloor: an elongated light-colored object (resembling a bottle or plastic container), a dark, elongated object (possibly a piece of metal or wood), and a thin line or rope stretching across the sediment.",
+            "environmental_observations": "The underwater image displays a predominantly sandy or silty seafloor with moderate to low visibility. Several pieces of human-made debris are present, notably an elongated light-colored item, a dark elongated item, and a thin line/rope. The AI detections suggest the presence of living organisms, specifically sponges and urchins, within this benthic environment.",
+            "potential_impacts": "The visible anthropogenic debris, particularly the line/rope, poses a potential entanglement risk to mobile marine organisms. Larger debris items could physically smother or damage existing benthic habitats and organisms, including potentially the detected sponges and urchins. If the light-colored object is plastic, it carries the long-term risk of microplastic breakdown and subsequent ingestion by marine fauna. The overall aesthetic quality of the immediate seafloor is also diminished by the presence of refuse.",
+            "marine_risks": "The primary marine risks observed are entanglement from the visible line/rope, which can injure or kill marine life. There is also a risk of localized habitat degradation from the physical presence of larger debris items. While not directly observable, the degradation of debris, particularly plastics, can lead to chronic pollution and introduce chemical contaminants over time, although direct chemical contamination is not confirmed by this image.",
+            "cleanup_recommendations": "It is recommended to conduct a targeted cleanup operation to remove the identified anthropogenic debris, specifically the elongated light-colored object, the dark elongated object, and the thin line/rope. Removal should be performed carefully to avoid further disturbance to the seafloor and to protect any associated marine life, such as the detected sponges and urchins. Identifying the material of the debris, if possible, could also aid in source reduction efforts.",
+            "overall_assessment": "The underwater environment shows signs of localized anthropogenic impact due to the presence of multiple debris items on a sandy/silty seafloor. Despite this, the detection of sponges and urchins indicates that the area supports some marine biodiversity. The visible debris presents immediate and potential risks to marine life and habitat integrity, warranting intervention. A focused cleanup effort is advisable to mitigate these environmental concerns and protect the local marine ecosystem."
+        },
+        "processing_time": 11.6
+    },
+    {
+        "image_index": 864,
+        "detections": [],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI reported no objects detected above the confidence threshold. However, visual inspection of the image reveals a long, slender, fish-like creature (likely a pipefish) swimming in the mid-right portion of the frame. There are also several indistinct shapes and linear features on the seabed, which could be either natural sediment irregularities, submerged natural items, or scattered debris. A diver is faintly discernible in the upper background.",
+            "environmental_observations": [
+                "The water column exhibits low visibility, indicating high turbidity or significant suspended particulate matter.",
+                "The seabed appears to be composed of fine sediment, such as sand or silt, with an uneven texture and some scattered darker patches.",
+                "A single, long, slender marine animal, consistent with a pipefish, is present and appears to be swimming freely.",
+                "Several irregular, flattened, and elongated shapes are visible on the seabed. Their exact composition or origin (natural vs. anthropogenic) cannot be definitively determined due to limited visibility and image resolution.",
+                "A human diver is faintly observed in the upper background, indicating human presence in the area."
+            ],
+            "potential_impacts": [
+                "Low water clarity can reduce light penetration, potentially impacting photosynthetic organisms and the visibility range for marine life, affecting foraging and predator avoidance.",
+                "If the indistinct shapes on the seabed are indeed anthropogenic debris, they could cause habitat disruption, entanglement risks for marine life, or potentially leach harmful substances into the water, though this is an assumption without confirmation.",
+                "Sediment resuspension, if contributing to the observed turbidity, can smother benthic organisms and clog the feeding apparatus of filter feeders."
+            ],
+            "marine_risks": [
+                "The presence of unidentifiable objects on the seabed introduces an unquantified risk of ecological harm if they are marine litter (e.g., entanglement hazards, ingestion risks, physical alteration of the substrate).",
+                "Poor visibility conditions can generally stress marine organisms reliant on sight and may hinder effective monitoring or research activities.",
+                "Human presence (the diver) can lead to unintentional disturbance of the seabed or marine life, although the purpose of their presence is unknown."
+            ],
+            "cleanup_recommendations": [
+                "Further investigation, potentially through closer observation or sampling, is recommended to accurately identify the nature and composition of the indistinct objects on the seabed.",
+                "If confirmed to be anthropogenic debris, targeted and safe removal efforts should be planned to mitigate potential environmental impacts.",
+                "Monitoring of water clarity and turbidity levels over time could provide insights into the causes and potential mitigation strategies if the turbidity is found to be anthropogenically influenced."
+            ],
+            "overall_assessment": "The MarineVision AI did not detect any objects above its confidence threshold in this underwater image. Visual assessment reveals an environment characterized by low visibility due to turbidity, a soft sediment seabed, and the presence of at least one marine animal (likely a pipefish) and a human diver. Several indistinct shapes on the seabed are noted, but their nature (natural features versus anthropogenic debris) cannot be definitively ascertained from the current image. While no immediate or severe environmental threats are confirmed based on the AI's report or direct visual evidence, the potential for marine debris and the observed low visibility warrant further investigation and ongoing monitoring to ensure the health and integrity of this marine ecosystem."
+        },
+        "processing_time": 12.83
+    },
+    {
+        "image_index": 65,
+        "detections": [
+            {
+                "object": "animal_urchin",
+                "confidence": 0.9923
+            },
+            {
+                "object": "animal_urchin",
+                "confidence": 0.9919
+            },
+            {
+                "object": "animal_urchin",
+                "confidence": 0.8451
+            },
+            {
+                "object": "animal_urchin",
+                "confidence": 0.7075
+            },
+            {
+                "object": "animal_urchin",
+                "confidence": 0.5564
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected multiple instances of 'animal_urchin' with varying confidence levels (0.9923, 0.9919, 0.8451, 0.7075, 0.5564). Visually, several dark, spiny, spherical organisms consistent with sea urchins are present on the sandy/rubble seabed.",
+            "environmental_observations": "The image depicts a shallow marine environment at approximately 1.3 meters depth with a water temperature of 23.7\u00b0C. The seabed consists of sand mixed with coral rubble and some larger rocky or dead coral structures. Multiple sea urchins are visible scattered across the substrate. Water clarity appears moderate. No obvious signs of marine debris, active coral bleaching, or anthropogenic pollution are observed.",
+            "potential_impacts": "The presence of multiple sea urchins indicates a natural component of the benthic community. While their presence is normal, high densities of urchins, if sustained, can lead to intense grazing pressure on algal communities, potentially altering benthic ecosystems and creating 'urchin barrens'. However, based solely on this single image, there is no direct evidence to confirm such an impact or an unusually high density.",
+            "marine_risks": "Potential marine risks, not directly evidenced but generally associated with such environments, include changes in benthic community structure due to population imbalances (e.g., unchecked urchin populations). The shallow depth makes the area potentially vulnerable to surface disturbances or rapid temperature fluctuations. No immediate risks are evident from visible pollution or distress in organisms.",
+            "cleanup_recommendations": "Based on the provided image and detections, there is no visible marine debris or pollution requiring immediate cleanup actions. Recommendations would focus on continued monitoring of the marine environment to track population dynamics of species like sea urchins and to detect any potential anthropogenic impacts or signs of ecosystem stress that might emerge over time.",
+            "overall_assessment": "The underwater environment appears to be a natural seabed habitat characterized by sand, coral rubble, and the presence of multiple sea urchins, which are typical inhabitants of such ecosystems. No visible signs of immediate environmental distress, pollution, or significant degradation are observed. The detected organisms represent a normal component of this type of marine environment."
+        },
+        "processing_time": 10.21
+    },
+    {
+        "image_index": 61,
+        "detections": [
+            {
+                "object": "tire_rubber",
+                "confidence": 0.9991
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected 'tire_rubber' with 0.9991 confidence. Visually, there is a dark, somewhat circular or irregular object partially visible and seemingly settled on the seabed in the upper-middle left of the image, which is consistent with the characteristics of a discarded tire.",
+            "environmental_observations": "The primary observation is the presence of an object visually consistent with a rubber tire on the seabed. The immediate marine environment appears murky with a greenish tint, indicating some level of turbidity. The seabed shows an uneven, possibly rocky or debris-strewn texture, with a notable dark cavity or opening towards the upper-middle right. Other indistinct shapes and lighter-colored debris are also present on the bottom, but their exact nature cannot be confirmed from the image.",
+            "potential_impacts": "The presence of a rubber tire can lead to physical alterations of the seabed, potentially smothering benthic organisms or altering local habitat. Over time, tires are known to degrade and leach various chemicals (e.g., zinc, phthalates, heavy metals, synthetic rubber compounds) into the surrounding water, which could potentially impact water quality and marine life. Furthermore, tire degradation can contribute to microplastic pollution in the marine environment. There is also a potential for entanglement for some marine species, although this risk may be lower for a single, settled tire.",
+            "marine_risks": "Key marine risks include habitat disruption and alteration of natural seabed structures. The potential leaching of toxic chemicals from the tire poses a risk of chronic or acute toxicity to marine organisms, potentially affecting their growth, reproduction, and overall survival. These chemicals can also enter the marine food web through bioaccumulation. The long-term degradation contributes to persistent microplastic pollution, and the tire represents an aesthetic degradation of the marine environment.",
+            "cleanup_recommendations": "It is recommended to safely retrieve the identified tire from the marine environment to mitigate its potential impacts. A thorough site assessment should be conducted during retrieval to identify any additional submerged debris or pollutants in the vicinity. Post-retrieval, consideration should be given to appropriate disposal or recycling methods for the tire. Addressing sources of marine litter and implementing preventative measures are crucial to avoid future occurrences of similar pollution.",
+            "overall_assessment": "The presence of the detected object, highly likely a rubber tire, indicates anthropogenic pollution in this underwater environment. While the immediate visible evidence is limited to the object itself and some general turbidity, discarded tires pose significant long-term environmental risks due to chemical leaching, microplastic release, and habitat disruption. Its removal is advisable to improve the ecological health of the area and mitigate potential adverse impacts on marine ecosystems."
+        },
+        "processing_time": 10.46
+    },
+    {
+        "image_index": 447,
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 10h21m46.002718387s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37306s'}]}}"
+    },
+    {
+        "image_index": 476,
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 10h21m45.528783169s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37305s'}]}}"
+    },
+    {
+        "image_index": 1034,
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 10h21m45.056973414s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37305s'}]}}"
+    },
+    {
+        "image_index": 54,
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 10h21m44.5279979s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37304s'}]}}"
+    },
+    {
+        "image_index": 1149,
+        "detections": [
+            {
+                "object": "bottle_plastic",
+                "confidence": 0.897
+            },
+            {
+                "object": "clothing_fiber",
+                "confidence": 0.6945
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected a 'bottle_plastic' with 0.897 confidence, which is visually consistent with a plastic bottle, partially submerged in the sediment. A 'clothing_fiber' was detected with 0.6945 confidence, corresponding to a lighter, possibly reflective piece of material visible near the marine vegetation.",
+            "environmental_observations": "The image displays an underwater environment with a sandy/silty seabed and visible patches of marine vegetation, likely seagrass. Two elongated, bottle-shaped objects are visible, one more distinctly shaped like a bottle and partially covered by sediment. A piece of light-colored debris is also observed near the marine vegetation. No marine fauna is directly discernible in the frame. Water clarity appears moderate.",
+            "potential_impacts": "The presence of plastic debris (bottle) and synthetic material (clothing fiber/debris) can lead to several potential environmental impacts. These include the physical entanglement of marine organisms, potential ingestion by wildlife (particularly as items degrade into microplastics), and the alteration of the natural benthic habitat. The long-term degradation of plastic can also contribute to microplastic pollution and potentially leach chemical additives into the marine environment, though chemical contamination is not confirmed by this image alone.",
+            "marine_risks": "The identified marine litter contributes to the broader issue of ocean pollution. Such items represent a persistent threat to marine ecosystems due to their slow degradation. Risks include localized habitat degradation for benthic organisms, the potential for long-term ecological disturbance from persistent debris, and the introduction of microplastics into the food web over time.",
+            "cleanup_recommendations": "It is recommended to retrieve the identified plastic bottle and the piece of clothing fiber/debris from the seabed to prevent further environmental impact. A localized survey of the immediate area could be beneficial to identify any additional submerged debris. Collected materials should be disposed of properly or recycled where facilities exist.",
+            "overall_assessment": "The analysis of the underwater image indicates the presence of localized marine debris, specifically identified as a plastic bottle and a piece of synthetic material (clothing fiber/debris), within a natural benthic habitat. While no immediate direct impact on marine life is visibly apparent, these items are common forms of marine pollution known to pose significant long-term environmental risks. Prompt removal of the detected debris is advisable to mitigate potential ecological harm."
+        },
+        "processing_time": 12.64
+    },
+    {
+        "image_index": 407,
+        "error": "429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\\nPlease retry in 10h21m30.769136402s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37290s'}]}}"
+    },
+    {
+        "image_index": 859,
+        "detections": [
+            {
+                "object": "animal_urchin",
+                "confidence": 0.9934
+            },
+            {
+                "object": "bottle_glass",
+                "confidence": 0.7821
+            },
+            {
+                "object": "animal_etc",
+                "confidence": 0.762
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": {
+                "animal_urchin": "MarineVision AI detected an 'animal_urchin' with high confidence (0.9934). Visually, a dark, spiny, somewhat rounded organism consistent with a sea urchin is observed on the seabed, particularly visible in the lower right portion of the image and its corresponding crop. This suggests the presence of natural benthic fauna.",
+                "bottle_glass": "MarineVision AI detected a 'bottle_glass' with moderate confidence (0.7821). In the mid-ground, slightly to the left, an elongated, somewhat cylindrical object partially buried in the sand is visible, which could plausibly be a glass bottle. This indicates the presence of anthropogenic litter.",
+                "animal_etc": "MarineVision AI detected 'animal_etc' with moderate confidence (0.762). This general classification might refer to other indistinct biological forms or ambiguous shapes on the seabed that are not clearly identifiable. Given the low visibility and sandy bottom, these could be other small invertebrates, organic debris, or unconsolidated sediment features."
+            },
+            "environmental_observations": {
+                "seabed_composition": "The seabed primarily consists of sand and fine sediment, with some scattered small rocks or shell fragments. There are areas with slight topographical variations and ripple marks indicative of bottom currents.",
+                "water_parameters": "The image metadata indicates a depth of 3.0 meters and a water temperature of 23.5\u00b0C. Water visibility appears moderate to low, contributing to the indistinct nature of some objects.",
+                "biological_presence": "The confirmed presence of what appears to be a sea urchin indicates the existence of some marine life adapted to the sandy benthic environment.",
+                "anthropogenic_debris": "The visible presence of an object consistent with a glass bottle confirms the existence of man-made litter on the seabed."
+            },
+            "potential_impacts": {
+                "from_bottle_glass": "A glass bottle, even when intact, is an unnatural addition to the marine environment. Over time, it can break into sharp shards, posing a physical hazard to marine organisms, potentially causing cuts or injuries. It also contributes to visual pollution and habitat degradation.",
+                "from_animal_urchin": "The presence of a sea urchin is a natural component of marine ecosystems and typically indicates a healthy environment. No negative impacts are directly associated with the presence of an urchin from this observation alone.",
+                "from_animal_etc": "Depending on what 'animal_etc' represents, potential impacts could range from benign (e.g., natural organic detritus, other marine life) to harmful (e.g., if it represents other forms of anthropogenic debris, it could pose similar risks as the bottle)."
+            },
+            "marine_risks": {
+                "physical_hazard": "The primary marine risk identified is the physical hazard posed by the suspected glass bottle. Its potential to break into sharp fragments can injure bottom-dwelling organisms, divers, or other marine life through contact.",
+                "habitat_degradation": "The presence of anthropogenic litter like the glass bottle degrades the aesthetic and ecological quality of the sandy seabed, potentially displacing or interfering with natural benthic communities.",
+                "ingestion_risk": "While glass is not digestible, smaller fragments could potentially be ingested by filter feeders or detritivores, leading to internal physical damage.",
+                "no_chemical_confirmation": "There is no visual evidence to suggest chemical contamination, nor can it be inferred from the detected objects. Therefore, no chemical risks are confirmed based on this image."
+            },
+            "cleanup_recommendations": {
+                "debris_removal": "It is recommended that the identified glass bottle and any other visible anthropogenic debris be carefully removed from the seabed to prevent further environmental impact and reduce physical hazards.",
+                "regular_monitoring": "Implement regular monitoring of this site and similar sandy areas to track the accumulation of marine litter and assess the overall health of the benthic ecosystem.",
+                "source_identification": "If recurring debris is found, efforts should be made to identify the source of the litter to implement preventative measures upstream."
+            },
+            "overall_assessment": "The underwater environment exhibits a mixed status. While it supports natural marine life, evidenced by the suspected sea urchin, it is also impacted by anthropogenic litter, specifically a suspected glass bottle. The immediate risks are localized physical hazards and habitat degradation due to the debris. A targeted cleanup of the identified litter is recommended, along with ongoing monitoring to maintain the ecological integrity of the area."
+        },
+        "processing_time": 13.2
+    },
+    {
+        "image_index": 1116,
+        "detections": [
+            {
+                "object": "bag_plastic",
+                "confidence": 0.999
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "MarineVision AI detected an object identified as 'bag_plastic' with a high confidence of 0.999. Based on this detection, the visible evidence in the image suggests a translucent, irregularly shaped item suspended in the water column, consistent with the general appearance of a plastic bag. While the model's confidence is high, it is important to note this is an AI detection and not a direct human confirmation of the object's exact material or nature.",
+            "environmental_observations": "A single, likely plastic, bag is observed in the underwater environment. The water appears to have a greenish tint and some visible particulate matter or turbidity, which is a general characteristic of the water column but not directly caused by the detected object. No immediate marine life interactions, seabed features, or signs of degradation of the bag are clearly discernible from the provided image.",
+            "potential_impacts": "The presence of a plastic bag in the marine environment poses several potential risks. It can act as marine debris, potentially leading to entanglement of marine animals such as turtles, seals, or birds. It could also be ingested by marine organisms that mistake it for food, leading to internal injuries, blockages, or starvation. Over time, plastic bags break down into microplastics, which can enter the food web and persist in the environment.",
+            "marine_risks": "The primary marine risks associated with a plastic bag include physical harm to wildlife through entanglement or ingestion, which can cause injury, suffocation, or digestive system blockages. There is also a long-term risk of microplastic pollution as the bag fragments, potentially impacting ecosystem health and trophic transfer within the marine food chain. While not directly observable in this image, plastic debris can also contribute to habitat degradation if it settles on sensitive ecosystems.",
+            "cleanup_recommendations": "If safely accessible, the detected plastic bag should be removed from the marine environment to mitigate its potential harm. Beyond individual cleanup, recommendations include enhancing waste management practices, promoting public awareness about plastic pollution, encouraging the reduction of single-use plastics, and supporting initiatives for marine debris collection.",
+            "overall_assessment": "The detection of a plastic bag highlights a localized instance of anthropogenic pollution in the marine environment. While only one object is indicated, its presence underscores the broader challenge of plastic debris. The potential for harm to marine life and ecosystems is significant, warranting removal and emphasizing the need for preventative measures to reduce plastic inputs into our oceans."
+        },
+        "processing_time": 7.8
+    },
+    {
+        "image_index": 191,
+        "detections": [
+            {
+                "object": "tire_rubber",
+                "confidence": 0.994
+            },
+            {
+                "object": "bag_plastic",
+                "confidence": 0.9926
+            },
+            {
+                "object": "bottle_plastic",
+                "confidence": 0.9038
+            },
+            {
+                "object": "bottle_plastic",
+                "confidence": 0.7664
+            },
+            {
+                "object": "bottle_plastic",
+                "confidence": 0.7047
+            },
+            {
+                "object": "bottle_plastic",
+                "confidence": 0.6666
+            }
+        ],
+        "environmental_report": {
+            "object_explanation": "Based on MarineVision AI detections, the image reveals the presence of several human-generated debris items. A 'tire_rubber' object is detected with very high confidence (0.994) and is visibly discernible in the bottom right corner of the frame. A 'bag_plastic' object is also detected with very high confidence (0.9926), appearing as a lighter, amorphous shape towards the bottom-middle. Furthermore, four 'bottle_plastic' objects were detected with confidences ranging from 0.9038 to 0.6666, indicating multiple plastic bottles are present, although their individual forms are somewhat obscured by water conditions.",
+            "environmental_observations": "The underwater environment exhibits significant turbidity, characterized by a greenish hue and numerous light scattering particles (bokeh effects) which diminish visibility. Visible evidence on the seafloor includes a large tire and multiple plastic items (bag, bottles), indicating the accumulation of anthropogenic solid waste. The seafloor itself appears to be a mixed substrate with visible detritus.",
+            "potential_impacts": "The detected marine debris, particularly the tire and plastic items, can lead to habitat degradation by smothering benthic organisms and altering the natural seafloor composition. Plastic debris poses a significant entanglement risk for marine wildlife and can be mistaken for food, leading to ingestion that causes internal injuries, blockages, or starvation. The long-term presence of plastics will result in their fragmentation into microplastics, which can enter the marine food web. While not confirmed, tires can leach chemicals into the water as they degrade, potentially impacting water quality and marine life.",
+            "marine_risks": "The accumulation of debris poses a direct threat to local marine biodiversity and can disrupt ecosystem functions. The persistent nature of plastics ensures their impacts will continue for extended periods, contributing to long-term ocean pollution. Larger items like the tire could potentially cause physical damage to sensitive habitats if moved by strong currents. The presence of such litter also introduces a potential for biofouling, which could facilitate the spread of non-native species.",
+            "cleanup_recommendations": "Immediate targeted removal of the clearly identified large debris, specifically the tire and plastic bag, is recommended using appropriate methods to minimize disturbance to the surrounding environment. Given the multiple detections of plastic bottles, a broader cleanup effort for smaller plastic items may also be necessary. Concurrently, efforts should focus on implementing source reduction strategies to curb the inflow of plastic waste and other litter into the marine environment, supported by public awareness campaigns on responsible waste disposal and the impacts of marine pollution. Regular monitoring of this site is advised to assess the extent of pollution and evaluate the effectiveness of cleanup operations.",
+            "overall_assessment": "The analysis of the image, supported by MarineVision AI detections, indicates a notable presence of marine debris, predominantly plastic items and a tire, within a turbid underwater environment. This represents a significant concern for the local marine ecosystem due to potential impacts on habitat, wildlife, and overall water quality. A proactive approach involving both direct cleanup and preventative measures is essential to mitigate current threats and prevent further environmental degradation."
+        },
+        "processing_time": 12.68
+    }
+]
